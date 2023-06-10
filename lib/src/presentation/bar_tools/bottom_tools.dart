@@ -148,9 +148,9 @@ class BottomTools extends StatelessWidget {
                                     borderRadius: BorderRadius.circular(15),
                                     border: Border.all(
                                         color: Colors.white, width: 1.5)),
-                                child: Row(
+                                child: const Row(
                                     mainAxisSize: MainAxisSize.min,
-                                    children: const [
+                                    children: [
                                       Text(
                                         'Share',
                                         style: TextStyle(
